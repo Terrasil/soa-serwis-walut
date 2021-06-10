@@ -99,7 +99,7 @@ public class ScheduledTasks {
     }
 
     @Retryable(value = Exception.class, maxAttempts = Integer.MAX_VALUE ,backoff = @Backoff(delay = 300000)) // co 5min ,czyli 300 000 ms
-    @Scheduled(cron = "0 35 21 * * MON-SUN")
+    @Scheduled(cron = "0 15 16 * * MON-FRA")
     //@Retryable
     public void updateDataBase() throws Exception {
         log.info("scheduledTask progress...");
