@@ -1,0 +1,2 @@
+pl/gdynia/amw/Laboratorium6/Laboratorium6ApplicationTests.java
+ pl.gdynia.amw.Laboratorium6.Laboratorium6ApplicationTests
